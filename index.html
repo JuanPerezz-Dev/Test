@@ -6,9 +6,28 @@
     <title>Git</title>
 </head>
 <body>
-    <h1>Juan Esteban</h1>
-    <h2>Perez Loaiza</h2>
-    <p>Ya se usar Git</p>
-    <img src="https://i.pinimg.com/736x/df/03/f6/df03f6f75e854017b1ac79ffcdad269e.jpg" alt="star">
+    <h1>Calculadora Basica</h1>
+    <img id="imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrFMOmqxkOiaq8W_DQ8BXRdXRe4GuLeuUbqBY-59l434v5E7WLwZqkzW-&s=10" alt="icono de calculadora" width="100px">
+    <div>
+        <label for="num1">Numero 1:</label>
+        <input type="number" placeholder="Ingresa un numero" id="num1">
+    </div>
+    <br>
+    <div>
+        <label for="num2">Numero 2:</label>
+        <input type="number" placeholder="Ingresa un numero" id="num2">
+    </div>
+    <hr>
+    <select name="operaciones" id="operaciones">
+        <option value="">Selecciona una opcion</option>
+        <option value="suma">Suma(+)</option>
+        <option value="resta">Resta(-)</option>
+        <option value="multi">Multiplicacion(*)</option>
+        <option value="division">Division(/)</option>
+    </select>
+    <br>
+    <button id="resultado">Resultado</button>
+    <p id="salida"></p>
+    <script src="js/app.js"></script>
 </body>
 </html>
